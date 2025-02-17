@@ -1,0 +1,61 @@
+:root {
+    --them-width: 1400px;
+    --acent0: #151515;
+    --acent1: #2b2b2b;
+    --acent3: #858585; 
+    --acent4: #f5f5f5; 
+    --acent5: rgb(215 215 215 / 73%); 
+}
+body {
+    background: #fff;
+    color: var(--acent1);
+}
+input {
+    background: #fff;
+    color: var(--acent1);
+    border: 1px solid var(--acent3);
+    padding: .4rem 1.3rem;
+    width: 100%;
+    margin-bottom: .7rem;
+}
+._btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_animation_rotate {
+    transition: 1.5s;
+    transform: rotate(0);
+}
+.button_animation_rotate {
+    transition: 1.5s;
+    transform: rotate(360deg);
+}
+.card {
+
+    border: 1px solid var(--acent3);
+}
+
+.tab {
+
+}
+.tab__close {
+    padding: 0!important;
+}
+.tab__item {
+  margin-bottom: .7rem;
+}
+.tab__title {
+  cursor: pointer;
+  padding-bottom: .7rem;
+}
+.tab__content {
+    border-top: 1px solid var(--acent3);
+    padding: 1rem 0;
+}
+
+input, textarea {
+    background: #fff;
+    margin: 0;
+}
